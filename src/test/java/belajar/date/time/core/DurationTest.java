@@ -29,12 +29,14 @@ public class DurationTest {
         long hours = duration.toHours();
         long minutes = duration.toMinutes();
         long seconds = duration.toSeconds();
+        long millis = duration.toMillis();
         long nanos = duration.toNanos();
 
         System.out.println(days);
         System.out.println(hours);
         System.out.println(minutes);
         System.out.println(seconds);
+        System.out.println(millis);
         System.out.println(nanos);
     }
 
